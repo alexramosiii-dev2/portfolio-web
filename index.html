@@ -10,26 +10,23 @@
 
 </head>
 <style>
-    
 
-    img {
-        transform: rotate(-3deg);
+    section#know_how a {
+        transition: translate ease-in-out .1s;
+    }
+    section#know_how a:hover {
+        translate: 0 -10px;
     }
 
-    #img-col {
-        position: relative;
+    section#projects img {
+        transition: translate ease-in-out .1s;
     }
-    .border-frame {
-        border: 8px solid #ffffff;
-        height: 500px;
-        position: absolute;
-        width: 400px;
-        top: 50px;
-        left: 110px;
-        transform: rotate(4deg);
+
+    section#projects img:hover {
+        translate: 0 -40px;
     }
 </style>
-<body style="height: 200vh;">
+<body>
     <nav class="navbar navbar-expand-lg bg-dark shadow-lg" data-bs-theme="dark">
             <div class="container-md">
                 <a class="navbar-brand" href="/"><span class="fs-3 fw-bolder">&lt Alex /&gt</span></a>
@@ -58,29 +55,186 @@
             </div>
     </nav>
     
-    <section id="hero" class="py-5">
-        <div class="container-md py-5">
-            <div id="img-col"class="row py-5 align-items-center">
-                <div class="col text-center">
-                    <div class="" >
-                        <img src="./images/hero-image.png" alt="" class="img-fluid" width="350" >
-                        <div class="border-frame"></div>
+    <section id="hero" class="mb-5">
+
+        <div class="container py-5">
+            <div class="row ">
+                <div class="col-md-7 mb-5 mb-md-0 align-items-center d-flex">
+                    <div class="col-10 col-lg-7 mx-auto">
+                            <img src="./images/hero-image.png" class="img-fluid rounded-5 shadow-lg">
                     </div>
                 </div>
-                <div class="col px-5">
-                    <h1 class="display-4 mb-4"><span class="fw-semibold">Meet,</span> <br> <span class="fw-bolder display-1 "><strong>ALEX RAMOS</strong></span> </h1>
-                    <p class="lead text-muted fs-3 mb-5">An aspiring Full Stack Web Developer, with learning at the heart of his journey. As knowledge grows, so does fortune.</p>
-                    <a class="btn btn-primary btn-lg fw-semibold px-4" role="button" href="https://www.linkedin.com/in/a-ramosiii/" target="_top"> <i class="bi bi-linkedin" style="font-size: 1.3srem;"></i>
-                        Let's Connect!</a>
+
+                <div class="col-md-5 d-md-flex flex-md-column-reverse justify-content-md-center">
+                    <div class="d-grid d-lg-block">
+                        <a class="btn btn-primary btn-lg fw-semibold px-4 col-auto" role="button" href="https://www.linkedin.com/in/alexramosiii-dev" target="_top"> <i class="bi bi-linkedin" style="font-size: 1.3rem;"></i>
+                            Let's Connect!</a>
+                    </div>
+
+                    <div class="text-center text-md-start mb-md-4">
+                        <h1 class="display-4 mb-4"><span class="fw-semibold fs-2 d-none d-md-inline">Meet,</span> <br> <span class="fw-bolder display-1 "><strong>ALEX RAMOS</strong></span> </h1>
+                        <p class="fs-4 text-muted mb-lg-3">An aspiring Full Stack Web Developer, with learning at the heart of his journey. As knowledge grows, so does fortune.</p>
+                    </div>
                 </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="know_how" class="bg-dark py-5 mb-5">
+        <h2 class="text-white display-2 text-center fw-bolder mb-5">Know-How</h2>
+        <div class="container col-12 col-lg-8 pb-5">
+            <div class="d-flex text-white flex-wrap gap-3 justify-content-center align-items-center">
+                <a target="_blank" href="https://google.com/search?q=HTML" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">HTML5</a><br>
+                <a target="_blank" href="https://google.com/search?q=CSS" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">CSS3</a><br>
+                <a target="_blank" href="https://google.com/search?q=JavaScript" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">JavaScript</a><br>
+                <a target="_blank" href="https://google.com/search?q=LESS" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">LESS</a><br>
+                <a target="_blank" href="https://google.com/search?q=Bootstrap" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">Bootstrap 5</a><br>
+                <a target="_blank" href="https://google.com/search?q=Responsive%20Web%20Design" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">RWD</a><br>
+                <a target="_blank" href="https://google.com/search?q=jQuery" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">jQuery</a><br>
+                <a target="_blank" href="https://google.com/search?q=PHP" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">PHP</a><br>
+                <a target="_blank" href="https://google.com/search?q=Object-Oriented%20Programming%20(OOP)" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">OOP</a><br>
+                <a target="_blank" href="https://google.com/search?q=Model%20View%20Controller%20(MVC)" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">MVC</a><br>
+                <a target="_blank" href="https://google.com/search?q=CodeIgniter%203" class="shadow-lg btn btn-lg btn-success text-white px-4 py-1 border-2 rounded-pill">CodeIgniter 3</a><br>
+                <a target="_blank" href="https://google.com/search?q=Ajax" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">Ajax</a><br>
+                <a target="_blank" href="https://google.com/search?q=Object%20Relational%20Mapping%20(ORM)" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">ORM</a><br>
+                <a target="_blank" href="https://google.com/search?q=Git" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">Git</a><br>
+                <a target="_blank" href="https://google.com/search?q=GitHub" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">GitHub</a><br>
+                <a target="_blank" href="https://google.com/search?q=GitHub%20Actions" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">GitHub Actions</a><br>
+                <a target="_blank" href="https://google.com/search?q=Jenkins" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">Jenkins</a><br>
+                <a target="_blank" href="https://google.com/search?q=SQL%20Optimization" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">SQL Optimization</a><br>
+                <a target="_blank" href="https://google.com/search?q=Database%20Indexing" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">Database Indexing</a><br>
+                <a target="_blank" href="https://google.com/search?q=JSON" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">JSON</a><br>
+                <a target="_blank" href="https://google.com/search?q=JavaScript%20ES5%20%26%20ES6" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">ES5 & ES6</a><br>
+                <a target="_blank" href="https://google.com/search?q=NodeJS" class="shadow-lg btn btn-lg btn-warning text-white px-4 py-1 border-2 rounded-pill">NodeJS</a><br>
+                <a target="_blank" href="https://google.com/search?q=ExpressJS" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">ExpressJS</a><br>
+                <a target="_blank" href="https://google.com/search?q=Socket.io" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">Socket.io</a><br>
+                <a target="_blank" href="https://google.com/search?q=EJS" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">EJS</a><br>
+                <a target="_blank" href="https://google.com/search?q=Test-driven%20Development%20(TDD)" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">TDD</a><br>
+                <a target="_blank" href="https://google.com/search?q=Unit%20Testing" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">Unit Testing</a><br>
+                <a target="_blank" href="https://google.com/search?q=ReactJS" class="shadow-lg btn btn-lg btn-primary text-white px-4 py-1 border-2 rounded-pill">ReactJS</a><br>
+                <a target="_blank" href="https://google.com/search?q=JSX" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">JSX</a><br>
+                <a target="_blank" href="https://google.com/search?q=React-Bootstrap" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">React-Bootstrap</a><br>
+                <a target="_blank" href="https://google.com/search?q=Redux" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">Redux</a><br>
+                <a target="_blank" href="https://google.com/search?q=Wordpress" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">Wordpress</a><br>
+                <a target="_blank" href="https://google.com/search?q=Ruby" class="shadow-lg btn btn-lg btn-danger text-white px-4 py-1 border-2 rounded-pill">Ruby</a><br>
+                <a target="_blank" href="https://google.com/search?q=Rails" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">Rails</a><br>
+                <a target="_blank" href="https://google.com/search?q=Active%20Record" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">Active Record</a><br>
+                <a target="_blank" href="https://google.com/search?q=Database%20Migration" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">Database Migration</a><br>
+                <a target="_blank" href="https://google.com/search?q=RSpec" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">RSpec</a><br>
+                <a target="_blank" href="https://google.com/search?q=MySQL" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">MySQL</a><br>
+                <a target="_blank" href="https://google.com/search?q=SQL" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">SQL</a><br>
+                <a target="_blank" href="https://google.com/search?q=PostgreSQL" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">PostgreSQL</a><br>
+                <a target="_blank" href="https://google.com/search?q=MongoDB" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">MongoDB</a><br>
+                <a target="_blank" href="https://google.com/search?q=Redis" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">Redis</a><br>
+                <a target="_blank" href="https://google.com/search?q=Docker" class="shadow-lg btn btn-lg btn-info text-white px-4 py-1 border-2 rounded-pill">Docker</a><br>
+                <a target="_blank" href="https://google.com/search?q=Database%20Design" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">Database Design</a><br>
+                <a target="_blank" href="https://google.com/search?q=Entity%20Relationship%20Diagram%20(ERD)" class="shadow-lg btn btn-outline-secondary text-white px-4 py-1 border-2 rounded-pill">ERD</a><br>
+
             </div>
         </div>
     </section>
 
-    <section class="bg-dark h-100">
-        <div class="container-md py-5">
-            <h2 class="text-light display-2 text-center fw-bolder mb-5">Know-How</h2>
+    <section id="projects" class="mb-5">
+        <div class="container col-12 col-md-8 col-md-12">
+            <h2 class="display-2 text-center fw-bolder mb-4 border-5 border-bottom pb-5 border-dark">Personal Projects</h2>
+
+            <div class="row py-5 align-items-md-center">
+                <div class="col-md-6">
+                    <div class=" ms-auto me-auto me-md-0 ms-md-auto">
+                        <img src="./images/1000.png" alt="" class="img-fluid rounded-4 shadow-lg">
+                    </div>
+                </div>
+    
+                <div class="col-md-6 pt-3 ">
+                    <p class="display-2 lh-1 mb-4">Lorem ipsum dolor sit amet.</p>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam, libero voluptatum, aspernatur maxime quia modi quod non laboriosam voluptatibus repellat, ipsam rerum a quis vel eveniet ab cum debitis.</p>
+                </div>
+            </div>
+
+            <div class="row py-5 align-items-md-center flex-md-row-reverse">
+                <div class="col-md-6">
+                    <div class=" ms-auto me-auto ms-md-0 me-md-auto">
+                        <img src="./images/1000.png" alt="" class="img-fluid rounded-4 shadow-lg">
+                    </div>
+                </div>
+                <div class="col-md-6 pt-3 text-md-end">
+                    <p class="display-2 lh-1 mb-4 ">Lorem ipsum dolor sit amet.</p>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam, libero voluptatum, aspernatur maxime quia modi quod non laboriosam voluptatibus repellat, ipsam rerum a quis vel eveniet ab cum debitis.</p>
+                </div>
+                
+            </div>
+
+            <div class="row py-5 align-items-md-center">
+                <div class="col-md-6">
+                    <div class=" ms-auto me-auto me-md-0 ms-md-auto">
+                        <img src="./images/1000.png" alt="" class="img-fluid rounded-4 shadow-lg">
+                    </div>
+                </div>
+    
+                <div class="col-md-6 pt-3 ">
+                    <p class="display-2 lh-1 mb-4">Lorem ipsum dolor sit amet.</p>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam, libero voluptatum, aspernatur maxime quia modi quod non laboriosam voluptatibus repellat, ipsam rerum a quis vel eveniet ab cum debitis.</p>
+                </div>
+            </div>
+        </div>
+
+        
     </section>
+
+    <section id="cta_form" class="mb-5 ">
+        
+        <div class="container col-12 col-md-8 col-lg-10 border-top border-5 pt-5 border-dark">
+            <div class="row">
+                <div class="col-lg-7 col-xxl text-center text-lg-end mb-5 mb-lg-0">
+                    <div class="col-xl-10 ms-auto">
+                        <p class="display-2 fw-bolder">Found what you're looking for?</p>
+                        <p class="display-6 ">Let's discuss where will I fit into your team.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg px-4">
+                    <form action="" class="col-xl-10 mx-auto me-auto ms-xl-5">
+                        <div class="row">
+                            <div class="mb-3 col-lg">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input id="name" type="text" class="form-control">
+                            </div>
+            
+                            <div class="mb-3 col-lg">
+                                <label for="name" class="form-label">Subject</label>
+                                <input id="name" type="text" class="form-control">
+                            </div>
+                        </div>
+        
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Email</label>
+                            <input id="name" type="text" class="form-control">
+                        </div>
+        
+                        <div class="mb-5">
+                            <label for="name" class="form-label">Your Name</label>
+                            <textarea id="name" type="text" class="form-control" style="height: 12rem; resize: none"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-lg col-12 col-lg-auto px-4">Send</button>
+                    </form>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <footer class="bg-dark py-4">
+        <div class="container text-white text-center">
+                <a href="https://github.com/alexramosiii-dev2" target="_top" class="px-4 text-decoration-none lead text-white "><i class="bi bi-github me-2"></i>alexramosiii-dev2</a>
+                
+                <a href="https://www.linkedin.com/in/alexramosiii-dev" target="_top" class="px-4 text-decoration-none lead text-white"><i class="bi bi-linkedin me-2" style="font-size: 1.3rem;"></i>alexramosiii-dev</a>
+        </div>
+    </footer>
+
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
